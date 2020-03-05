@@ -1,0 +1,55 @@
+/* PALETA DE CORES 
+#D9CB04
+#D9B504
+#A68B03
+#735702
+#402401 */
+a {
+	text-decoration: none;
+}
+
+.nav-site{
+    background: #D9B504;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
+        0 2px 8px 0 rgba(0, 0, 0, .05);
+}
+
+.color-footer{
+    background:#D9B504;
+    color: #343A40;
+}
+
+.text-pallet2 a{
+    color: #D9B504;
+}
+
+#home-quote{
+    background: url('../img/bg-quote.jpg') center center;
+    background-size: cover;
+}
+
+@media(max-width: 767px) {
+    #home-quote .display-4 {
+        font-size: 2.5rem;
+    }
+
+    body {
+        padding: 0px;
+    }
+
+    .fixed-top {
+        position: relative;
+    }
+}
+
+.icons{
+    height: 100px;
+}
+
+
