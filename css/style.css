@@ -52,4 +52,11 @@ a {
     height: 100px;
 }
 
+.corpo{
+    height: 500px;
+}
 
+.about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
