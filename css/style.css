@@ -9,7 +9,7 @@ a {
 }
 
 .nav-site{
-    background: #D9B504;
+    background: #D9B504 !important;
     font-size: 18px;
     font-weight: bold;
 }
@@ -57,6 +57,11 @@ a {
 }
 
 .about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.gallery{
     padding-top: 100px;
     padding-bottom: 50px;
 }
