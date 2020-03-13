@@ -41,7 +41,7 @@
                     <a class="nav-link" href="about.html">Sobre</a>
                 </li>
 
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="gallery.html">Galeria</a>
                 </li>
 
@@ -50,7 +50,7 @@
                     <a class="nav-link" href="schedule.html">Agenda</a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="btn btn-outline-dark ml-md-2 " href="contact.html">Contato</a>
                 </li>
             </ul>
@@ -58,48 +58,61 @@
 
     </nav>
 
-    <section class="gallery text-center">
+    <section class="contact">
         <div class="container">
-            <div class="my-5">
-                <span class="h6 d-block">GO OUT SOME MEMORIES</span>
-                <h2 class="display-4 text-warning">Galeria</h2>
+            <div class="my-5 text-center">
+                <span class="h6 d-block">CHAMA PARA OS BAILINHOS</span>
+                <h2 class="display-4 text-warning">Solicite Orçamento - Contato</h2>
             </div>
 
             <div class="row">
-                <div class="col-md">
-                    <img class="img-fluid mb-4" src="img/banco de imagens/1.jpg">
-                    <img class="img-fluid mb-4" src="img/banco de imagens/2.jpg">
-                    <img class="img-fluid mb-4" src="img/banco de imagens/3.jpg">
+                <div class="col-md-6">
+
+                    <form class="bg-light rounded box-shadow p-4" action="">
+                        <div class="form-group">
+                            <label for="nomeexample">Nome</label>
+                            <input type="text" class="form-control" id="nomeexample" placeholder="Digite seu nome">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="emailexample">Email address</label>
+                            <input type="email" class="form-control" id="emailexample" aria-describedby="emailHelp"
+                                placeholder="Digite Seu email">
+                            <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
+                                ninguém.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ClienteMensagem">Mensagem</label>
+                            <textarea id="ClienteMensagem" class="form-control" rows="4"></textarea>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </form>
+
                 </div>
-
-
-                <div class="col-md">
-                    <img class="img-fluid mb-4" src="img/banco de imagens/4.jpg">
-                    <img class="img-fluid mb-4" src="img/banco de imagens/5 5.jpg">
-                </div>
-
-
-                <div class="col-md">
-                    <img class="img-fluid mb-4" src="img/banco de imagens/7.jpg">
-                    <img class="img-fluid mb-4" src="img/banco de imagens/6 6.jpg">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="img/banco de imagens/contact.jpg">
                 </div>
             </div>
+
 
         </div>
     </section>
 
 
     <!-- footer site -->
-    <footer class="bg-dark text-white">
+    <footer class="bg-dark text-white mt-5">
         <div class="container py-4">
             <div class="row">
                 <div class="col-md-4">
                     <h4 class="h6">PÁGINAS</h4>
                     <ul class="list-unstyled text-pallet2">
-                            <li><a href="about.html">Sobre</a></li>
-                            <li><a href="gallery.html">Galeria</a></li>
-                            <li><a href="schedule.html">Agenda</a></li>
-                            <li><a href="contact.html">Contato</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li><a href="gallery.html">Galeria</a></li>
+                        <li><a href="schedule.html">Agenda</a></li>
+                        <li><a href="contact.html">Contato</a></li>
                     </ul>
                 </div>
 
